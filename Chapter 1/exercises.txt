@@ -1,0 +1,61 @@
+1.1: 
+
+1.1-1: Describe your own real-world example that requires sorting. Describe one that requires finding the shortest
+       distance between two points.
+
+       A: A real world example of sorting could be when a company has to sort a list of data points and determine which points 
+          exceed a certain threshold (whether that be temperature, altitude, filesize, etc.)
+
+          A real world example of finding the shortest distance between two points could be like the book discussed - delivery drivers.  
+          Alternatively, a networking company may need to find the shortest route from node to node across a country. 
+
+1.1-2: Other than speed, what other measures of efficiency might you need to consider in a real-world setting? 
+
+       A: Space, Resources, and Network
+
+1.1-3: Select a data structure that you have seen, discuss its strengths and limitations.
+
+       A: One of the ones that I have studied previously in my education are Hash-Maps. 
+
+          Strengths: Fast Lookup (O(1)), Efficient Insertion and Deletion, Space Efficiency, 
+                    Flexibility, Collision Resolution
+
+          Weaknesses: Inefficient when there are many collisions, Do not allow Null values, 
+                    Limited Capacity and will eventually fill up, Complex to implement.
+                    Do not retain order of elements (can make it difficult to retrieve elements in a
+                        specific order)
+
+1.1-4: How are the shortest-path and traveling-salesperson problems given above similar? How are they different? 
+
+       A: Shortest path and Traveling-Salesperson are similar in the sense that they are both optimizations, and both are distance based. They are different
+          in the sense that one is a distance between two points, and the other is considering many points, which are to be visited once and then return back to
+          the starting position.
+
+1.1-5: Suggest a real-world problem in which only the best solution will do. Then come up with one in which "approximately"
+       the best solution is good enough. 
+
+       A: A real-world problem where only the best solution will work could be something like finding the highest point of an area of land using satelite imagery.
+          "Approximate" best solutions could be the next optimal move 
+
+1.1-6: Describe a real-world problem in which sometimes the entire input is available before you need to solve the problem,
+       but other times the input is not entirely available in advance and arrives over time. 
+
+       A: An example of this could be retail staff scheduling. Ideally you have the full roster of employees, but cannot account for call-ins, no-shows, etc. 
+
+
+
+1.2:
+
+1.2-1: Give an example of an application that requires algorithmic content at the application level, and discuss the funciton of the algorithsm involved. 
+
+       A: As the book states, a web-based service that determines who to travel from one location to another. It may take into consideration the orientation of the object,
+          and use an algorithm to find the sortest path based on current orientation.
+
+1.2-2: Suppose that for inputs of size n on a particular computer, insertion sort runs in 8n^2 steps and merge sort runs in 64n lg(n) steps. For which values of n does insertion
+       sort beat merge sort? 
+
+       A: 43 (See Programs/1.2-1.cpp)
+
+1.2-3: What is the smallest value of n such that an algorithm whos running time is 100n^2 runs faster than an algorithm whos running time is 2^n on the same machine? 
+
+       A: 15 (See Programs/1.2-3.cpp)

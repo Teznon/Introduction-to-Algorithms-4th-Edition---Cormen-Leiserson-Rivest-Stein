@@ -1,0 +1,8 @@
+1.1:
+
+Algorithm - any well-defined computaitional procedure that takes some value, or set of values as input and produces
+            some value, or set of values, as output in a finite amount of time. 
+Data Structure - A way to store and organize data in order to facilitate access and modifications. 
+
+1.2:
+
