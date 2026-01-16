@@ -1,0 +1,8 @@
+Definitions: 
+    Key - The number being sorted. 
+    Satellite Data - Data associated with the Key
+    Record - The full line of information being sorted (Key + Satellite Data)
+
+Insertion Sort: 
+    Pick up a card from a deck an place it in your left hand. Draw another card and compare it to the one already in your hand. 
+        If it is less 
